@@ -70,12 +70,12 @@ export default class City extends React.Component {
             <br />
           </h2>
           <h3> {this.state.weather.description}</h3>
-          Wind {this.state.main.wind} m/s
+          Wind: {this.state.main.wind} m/s
           <br />
-          Humidity {this.state.main.humidity} %
+          Humidity: {this.state.main.humidity} %
           <br />
-          sunrise {this.state.cityInfo.sunrise}
-          <br /> sunset {this.state.cityInfo.sunset}
+          Sunrise: {this.state.cityInfo.sunrise}
+          <br /> Sunset: {this.state.cityInfo.sunset}
         </Container>
       );
     } else return <div></div>;
