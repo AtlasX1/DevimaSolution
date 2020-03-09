@@ -33,7 +33,7 @@ export default class WeatherInfo extends React.Component {
 
   render() {
     return (
-      <Container >
+      <Container>
         <Form>
           <Form.Group>
             <h2>City name</h2>

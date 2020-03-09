@@ -77,17 +77,6 @@ export default class City extends React.Component {
           sunrise {this.state.cityInfo.sunrise}
           <br /> sunset {this.state.cityInfo.sunset}
         </Container>
-        // <Card style={{ width: "18rem" }}>
-        //   <Card.Img block="true" src={this.state.weather.icon} />
-        //   <Card.Body>
-        //     <Card.Title>{this.state.cityInfo.name}</Card.Title>
-        //     <Card.Text>
-        //       temperature: {this.state.main.temperature}
-        //       <br />
-        //       description: {this.state.weather.description}
-        //     </Card.Text>
-        //   </Card.Body>
-        // </Card>
       );
     } else return <div></div>;
   }
