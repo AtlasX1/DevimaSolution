@@ -1,0 +1,8 @@
+.city-container {
+
+    background-color: white;
+    width: 30%;
+    border-radius: 20%;
+    border: 10px solid #24c9e6;
+    padding: 25px;
+}
